@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 10px;
+    background-color: aliceblue;
+    border-bottom: 1px solid;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+}
+
+/* hero */
+#hero img{
+    width: 100%;
+    object-fit: cover;
+}
